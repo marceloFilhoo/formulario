@@ -1,0 +1,126 @@
+/* definindo a cor total do site e a font usada*/
+body{
+    background-color: #F0EBF8;
+    margin: 0px;
+    font-family: arial;
+}
+/* fazendo o header */
+#header{
+    width: auto;
+    height: 160px;
+    padding: 20px;
+    background-color: #673AB7;
+    
+}
+#header h2{
+    color: white;
+    font-size: 1.17em;
+    margin:0px;
+
+}
+/* definindo o tamanho do conteiner geral */
+.form-conteiner{
+    /* definindo o a posição no meio */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: #FFF ;
+    /* fazendo subir mais e ficar por cima do header*/
+    top: -62px;
+}
+/* fazendo a parte do cadastro */
+#form-header p{
+   color:#673AB7;
+   border-bottom: 2px solid #673AB7;
+   /* definio tamanho maximo para fica as letras e a borda*/
+   width: 100px;
+   /* centralizou */
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+   /* indicou onte a linha ia começar */
+   line-height: 45px;
+}
+#form-header{
+    background-color: #fff ;
+    border-bottom: 1px solid #bbb9b9;
+    height: 45px;
+    
+}
+.form-body{
+    padding:30px;
+    
+}
+.form-body h1{
+   
+    font: 3em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.form-body p{
+    font-size: 1.05em;
+    color: #333;
+}
+label{
+    color: #444;
+}
+.block{
+    display: block;
+}
+.box-input{
+    margin-bottom: 30px;
+}
+input{
+    width: 400px;
+    padding: 10px 0px;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+
+}
+textarea{
+    width: 400px;
+}
+.obrigatorio{
+    color: red;
+}
+#descrição{
+    border: 1px solid #ccc ;
+
+}
+input[type="radio"] {
+	width: 15px;
+	height: 15px;
+    
+}
+.opcional-box{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+input[type="checkbox"] {
+	width: 13px;
+	height: 13px;
+    
+}
+.opcional-lista{
+    list-style-type: none;
+    padding-inline-start: 40px;
+
+}
+.btn-enviar{
+    background-color: #673AB7;
+    border: 2px solid transparent ;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    color: #FFF;
+    transition: 0.5s;
+}
+.btn-enviar:hover{
+    background-color: #FFF;
+    color: #673AB7;
+    border: 2px solid #673AB7 ;
+
+}
